@@ -1,0 +1,548 @@
+.pt-5{
+  padding-top: 5%;
+}
+.box{
+  border: solid 1px #fff;
+}
+.process-gird span{
+  font-size: 70px;
+  padding-top: 15%;
+  color: #0dc0c0;
+}
+.process-gird p{
+  color: black;
+  font-size: 20px;
+  padding-top: 5%;
+  font-weight: 600;
+  font-family: 'Didact Gothic', sans-serif;
+}
+.process-gird{
+    border-radius: 50%;
+    padding: 5%;
+    width: 170px;
+    height: 170px;
+    border: solid 1px #000000;
+    margin-top:5%;
+}
+/* perspective */
+
+.flip-container {
+  perspective: 1000;
+  margin: 10px;
+  float: left;
+}
+/* turning on hover */
+
+.flip-container:hover .flipper {
+  transform: rotateY(180deg);
+}
+
+.flip-container,
+.front,
+.back {
+  width: 200px;
+  height: 200px;
+  line-height: 90px;
+  text-align: center;
+  border-radius: 15px;
+}
+.front i{
+  font-size: 90px;
+  margin-top: 30%;
+}
+/* flipping speed here */
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+/* making the the other side hidden while flipping */
+
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* front side is in front of a back side */
+
+.front {
+  z-index: 2;
+  color: white;
+ 
+}
+/* back side */
+
+.back {
+  transform: rotateY(180deg);
+  background-color: rgba(0, 0, 0, 0,6);
+}
+
+.back h4 {
+  padding-top: 35%;
+  width: 200px;
+  height: 200px;
+  margin-top: 0px;
+  font-size:25px;
+  border: 6px solid white;
+  border-radius: 30px;
+  color: white;
+  margin-bottom: 0%;
+}
+.pink{
+  background-color: #CD6699;
+}
+.celeste{
+  background-color: #3EC4CE;
+}
+.orange{
+  background-color: #FF7121;
+}
+.mora{
+  background-color: #130334;
+}
+.css{
+  background-color: #0C73B8;
+}
+.gris{
+  background-color: #808080;
+}
+.bg-green{
+  background-color: #17AA7A;
+}
+.yellow{
+  background-color: #F7B617;
+}
+
+.hero a{
+  text-decoration: none;
+}
+.hero a:hover{
+  color: white;
+}
+
+h1{
+ font-family: 'Days One', sans-serif;
+  font-size: 5em;
+}
+.hero h3{
+  font-size: 30px;
+}
+h4{
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+h2{
+  font-family: 'Oswald', sans-serif;
+     font-size: 45px; 
+     margin-bottom: 2%;  
+}
+.sub{
+  font-size: 25px;
+  text-align: center;
+}
+h3{
+  font-size: 1.5em;
+}
+.gly  a  i{
+  font-size: 70px;
+  margin-top: 8%;
+  color: white;
+}
+.gly a:hover{
+  color: white;
+}
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+body{
+	color: white;
+}
+
+@media (max-width:500px) { 
+	.bg-green{
+		margin-top: 10%;
+	}
+}
+@media (max-width:500px) { 
+	.redes{
+		margin-top: 0px;
+	}
+}
+
+
+.navbar-nav>li>a{
+  color: white;
+}
+a{
+  color: white;
+}
+hr{
+  width: 60%;
+}
+.hero .btn{
+  color: white;
+  border: solid 2px #fff;
+}
+header .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	background: rgba(23,20,29,06);
+	color: white;
+}
+header li{
+	text-align: center;
+  color: white
+}
+.navbar-toggle{
+	border: 1px solid black;
+}
+.navbar-toggle .icon-bar {
+  background: white;
+}
+.hero{
+	background-image: url("../images/front.png");
+	background-size: cover;
+    width: 100%;
+
+}
+ 
+
+
+/*sobre mmi*/
+.about img{
+  width: 80%;
+  border-radius: 7%;
+}
+
+/* icono*/
+.line{
+ border: solid black 2px;
+  width: 13%;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+ .servi .line{
+ border: solid black 2px;
+  width: 13%;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+.about p{
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 18px;
+
+}
+.about i {
+  font-size: 28px;
+  color: black;
+  padding: 0 0.6%;
+}
+.contac i {
+  font-size: 28px;
+  color: black;
+  padding: 0 0.6%;
+}
+.contac p{
+  font-size: 16px;
+}
+
+.skil .lines{
+ border: solid white 2px;
+  width: 13%;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+ .skil p {
+  font-size: 28px;
+  color: white;
+  padding: 0 0.6%;
+}
+.pd-e{
+  padding: 6% 2% 0% 1%;
+}
+
+/*servicios*/
+.servi i{
+  font-size: 30px;
+  color: black;
+  padding: 0 0.6%;
+}
+.servi .lines{
+ border: solid black 2px;
+  width: 13%;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+
+/*portafolio*/
+/* generic css */
+.porta i{
+  font-size: 28px;
+    color: black;
+    padding: 0 0.6%;
+}
+.view {
+    margin: 10px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+    padding:1%;
+   
+}
+.view .mask, .view .content {
+    width: 540px;
+    height: 400px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 25px;
+    font-family: Raleway, serif;
+    padding: 10px;
+    /*background: rgba(0, 0, 0, 0.8);*/
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Merriweather, serif;
+    font-style: italic;
+    font-size: 14px;
+    position: relative;
+    color: #fff;
+    padding: 0px 20px 0px;
+    text-align: center
+}
+.view-tenth img { 
+    transform: scaleY(1);
+    transition: all .7s ease-in-out;
+}
+.view-tenth .mask { 
+    background-color: #EBEBD6;
+    transition: all 0.5s linear;
+    opacity: 0;
+}   
+.view-tenth h2{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin-top: 15%;
+    transform: scale(0);
+    color: #333;
+    transition: all 0.5s linear;
+    opacity: 0;
+}
+.view-tenth p {
+    color: #333;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+    padding-
+}
+
+.view-tenth:hover img { 
+  -webkit-transform: scale(10);  
+  transform: scale(10);
+    opacity: 0;
+}
+.view-tenth:hover .mask { 
+    opacity: 1;
+}                                                                            
+.view-tenth:hover h2,
+.view-tenth:hover p,
+.view-tenth:hover a.info{ 
+    transform: scale(1);
+    opacity: 1;
+}
+.view-tenth a{
+  text-decoration: none;
+}
+.view-tenth a:hover{
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+.prueba{
+   hsla(0,0%,0%,.015) 
+   
+    background-size: 1.5em 1.5em, .5em .5em;
+    font-family: sans-serif;
+    font-size: 1em;
+    line-height: 1.5;
+    margin: 0 auto;
+    padding: 1.5em;
+    width: 100%;
+}
+figure {
+    float: left;
+    height: 6em;
+    margin: 1.5em;
+    width: 100%;
+    -webkit-transform: perspective(500);
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: .5s;
+}
+figure:hover {
+    -webkit-transform: perspective(500) rotateX(90deg) translateY(-3em) translateZ(3em);
+}
+.prueba img {
+    background-color: #222;
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+    display: block;
+    width: 100%;
+    -webkit-transition: .5s;
+}
+figure:hover img {
+    box-shadow: none;
+    width: 100%;
+}
+.prueba figcaption {
+    background-color: #222;
+    color: #fff;
+    padding: 1.5em;
+    -webkit-transform: rotateX(-90deg);
+    -webkit-transform-origin: 100% 0;
+    -webkit-transition: .5s;
+}
+.prueba figure:hover figcaption {
+    box-shadow: 0 20px 15px -10px hsla(0,0%,0%,.25);
+}
+.prueba h3 {
+    font-weight: bold;
+}​
+
+/* servicios */
+
+/* contac*/
+.contac a:hover{
+  background-color: 
+}
+.contac p span{
+  margin-right: 1%;
+}
+/* red*/
+.franja i{
+  color:white;
+  font-size: 50px;
+    opacity: 0.7;
+    background-color: black;
+    border-radius: 50%; 
+    margin-right: 2%;
+    padding: 2%;
+}
+.franja i:hover{
+  opacity: 1;
+  color: #71c6c1;
+}
+/**       https://w3layouts.com/preview/?l=/brian-onepage-portfolio-flat-bootstrap-responsive-web-template/*/
+
+.pb-2{
+  padding-bottom: 5%;
+}
+.lim i{
+  font-size: 60px;
+  margin-right: 3%;  
+}
+/* section*/
+.bg{
+  background-color: #2C302F;
+}
+.ja{
+  width: 45px;
+}
+.redes .col-md-3{
+	border: 2px solid #fff;
+}
+
+/*utilitis*/
+.mt{
+  margin-top: 5%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.bg-gray{
+	background-color: gray;
+	width: 100%;
+	padding: 5%;
+}
+.pd-1{
+	padding: 1%;
+}
+.pd-2{
+	padding: 2%;
+}
+.pd-3{
+	padding: 3%;
+}
+.pd-4{
+	padding: 4%;
+}
+.pd-5{
+	padding: 5%;
+}
+.pd-15{
+  padding: 15%;
+}
+.pd-10{
+  padding: 10%;
+}
+.bg-black{
+	background-color: black;
+}
+.text-b{
+  color: black;
+}
+.most{
+  background-color: #EBEBD6;
+} 
+.pt-2{
+  padding-top: 3%;
+}
+.ml{
+   margin-left: 11%;
+}
+.mw{
+  margin-left: 10%;
+}
+
+
+
+
+
+
